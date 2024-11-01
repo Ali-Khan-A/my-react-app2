@@ -1,0 +1,290 @@
+/*Below is Css for Dashboard page page */
+/*Below is Css for Dashboard page page */
+/*Below is Css for Dashboard page page */
+
+.dashboard-buttons {
+  border-radius: 4px;
+  background-color: #82b0dc;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  height: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.dashboard-buttons{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dashboard-buttons:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dashboard-buttons:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.dashboard-buttons:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+
+/*Below is Css for login page page */
+/*Below is Css for login page page */
+/*Below is Css for login page page */
+
+body{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 20vh;
+    color: #000000;
+    background-image: url("bg.jpg");
+    
+  }
+  .login-container {
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    border-radius: 25px;
+    background: #82b0dc;
+    padding: 20px;
+    margin-top: 10vh;
+  }
+
+  
+  input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+  }
+
+  .not-user{
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  }
+
+  .not-user:hover {
+    color: white;
+  }
+
+  /*Below is Css for Personal details page */
+  /*Below is Css for Personal details page */
+  /*Below is Css for Personal details page */
+
+.personal-container {
+  text-align: center;
+  width: 500px;
+  height: 495px;
+  border-radius: 25px;
+  background: #82b0dc;
+  padding: 20px;
+  }
+  
+  .drp-gender {
+      width: 350px;
+      height: 30px;
+      border-radius: 5px;
+  }
+  
+  .center-container {
+      margin-top: 5vh;
+  }
+  
+  .lbl-first-name {
+      margin-left: -270px;
+  }
+  
+  .lbl-last-name {
+      margin-left: -270px;
+  }
+  
+  .lbl-DOB {
+      margin-left: -170px;
+  }
+
+  /*Below is Css for Business Details page */
+  /*Below is Css for Business Details page */
+  /*Below is Css for Business Details page */
+
+  .business-container {
+    
+    text-align: center;
+    margin-top: -10vh;
+    width: 500px;
+    height: 950px;
+    border-radius: 25px;
+    background: #82b0dc;
+    padding: 20px;
+    }
+
+    .lbl-business-type {
+      margin-left: -60px;
+    }
+
+    .lbl-business-registered {
+      margin-left: -70px;
+    }
+    .business-registered-radio {
+      margin-left: 100px;
+    }
+
+    .lbl-business-name{
+      margin-left: -230px;
+    }
+
+    .lbl-Business-Registration-number{
+      margin-left: -130px;
+    }
+
+    .lbl-about-business{
+      margin-left: -200px;
+    }
+
+    .lbl-treatment-type{
+      margin-left: -30px;
+    }
+
+    .lbl-based{
+      margin-left: -40px;
+    }
+
+    .lbl-business-address{
+      margin-left: -220px;
+    }
+
+    .lbl-business-postcode{
+      margin-left: -270px;
+    }
+
+    .lbl-upload-proof-id{
+      margin-left: -60px;
+    }
+
+    .lbl-upload-beauty{
+      margin-left: -120px;
+    }
+
+    .upload-file {
+      margin-left: 150px;
+    }
+
+  /*Below is Css for Register page */
+  /*Below is Css for Register page */
+  /*Below is Css for Register page */
+
+  .register-container{
+    text-align: center;
+    margin-top: -10vh;
+    width: 500px;
+    height: 650px;
+    border-radius: 25px;
+    background: #82b0dc;
+    padding: 20px;
+  }
+  
+    
+  .lbl-email {
+    margin-left: -310px;
+  }
+  
+  .lbl-password {
+    margin-left: -285px;
+  }
+  .lbl-password-again {
+    margin-left: -240px;
+  }
+  
+  .lbl-phone {
+    margin-left: -300px;
+  }
+
+  /* .options{
+    display: inline;
+  } */
+
+  .drp-day {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .drp-month {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .drp-year {
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  /*Below is Css for Admin_dashboard page */
+  /*Below is Css for Admin_dashboard page */
+  /*Below is Css for Admin_dashboard page */
+
+  .admin-dashboard {
+    background-color: #82b0dc;
+    width: 700px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-top: -100px;
+  }
+
+  .admin-h2 {
+    margin-left: 160px;
+  }
+
+  .admin-box {
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .btn-main-menu {
+    margin-left: 40px;
+  }
+  .staff-info {
+  background-color:lightblue;
+  border-radius: 4px;
+  padding: 5px;
+ }
+ 
+  .heading-company {
+  margin-left: 30px;
+  background-color: rgb(187, 207, 240);
+  border-radius: 4px;
+  padding: 10px;
+  width: 530px;
+  margin-left: 20px;
+ 
+ }
+
